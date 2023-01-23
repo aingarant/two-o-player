@@ -15,10 +15,18 @@ class Calculate
   end
 end
 
+# Create class to define the player (player name)
 class Player
   def initialize(name)
   end
 end
+
+# Create class to ask the question to player
+class Question
+  def initialize
+  end
+end
+
 
 
 # Begin new game
