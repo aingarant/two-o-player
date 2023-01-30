@@ -2,7 +2,7 @@
 class Game
 
   # Instance variable setter/getter
-  attr_accessor: :current_player
+  attr_accessor :current_player
 
   # Initializes with random player.
   def initialize
