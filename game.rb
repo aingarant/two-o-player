@@ -20,9 +20,13 @@ class Game
     @question.question(@current_player.name)
     @current_player.answer = gets.chomp.to_i
     if @current_player.answer == @question.answer
+      puts "******************************************"
       puts "Ding Ding Ding!"
+      puts "******************************************"
       swap_turn
+      puts "******************************************"
       puts "Bruhhhh!!! Seriously? No! It's #{@question.answer}"
+      puts "******************************************"
       @current_player.lose_life
       swap_turn
     end
@@ -33,7 +37,12 @@ class Game
     puts "P1: #{@p1.lives} of 3 lives remaining"
     puts "P2: #{@p2.lives} of 3 lives remaining"
     game_over?
-    puts "----- NEW TURN -----"
+    puts ""
+    puts ""
+    puts ""
+    puts ""
+    puts "**************** NEW ROUND ****************"
+
     update_turn_number
     new_round
   end
