@@ -1,3 +1,6 @@
+require './players'
+require './questions'
+
 # Create main game calcuation class
 class Game
 
