@@ -16,12 +16,12 @@ Methods
 - Will ask the question.
 
 Variables
+- num1 & num2: Holds the reandomy generated 2 numbers for the math question
+- answer - holds the answer provided by player.
+- player - holds player currently playing.
 
 Methods
-- new_question
-- 
-  
-
+- question - will generate question and ask player question.
 
 ###Game
 - Will manage the main game logic. Determines the question, player order.
